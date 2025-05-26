@@ -4,8 +4,8 @@ import { NextResponse } from 'next/server';
 interface FeishuConfig {
   appId: string;
   appSecret: string;
-  spreadsheetToken: string;
-  sheetId: string;
+  spreadsheetToken: string; // 多维表格APP token
+  sheetId: string;          // 多维表格TABLE ID
 }
 
 // 表单数据接口
@@ -20,7 +20,7 @@ interface FormData {
 // 获取飞书访问令牌
 async function getFeishuToken(config: FeishuConfig) {
   try {
-    const response = await fetch('https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal/', {
+    const response = await fetch('https://open.larksuite.com/open-apis/auth/v3/tenant_access_token/internal/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -47,19 +47,18 @@ async function getFeishuToken(config: FeishuConfig) {
 // 将数据写入飞书表格
 async function writeToFeishuSheet(token: string, config: FeishuConfig, formData: FormData) {
   try {
-    // 准备表格数据
-    const currentDate = new Date().toISOString().split('T')[0]; // YYYY-MM-DD 格式
-    
-    // 构建API请求URL
-    const url = `https://open.feishu.cn/open-apis/sheets/v2/spreadsheets/${config.spreadsheetToken}/values_prepend`;
-    
-    // 准备请求数据
+    // 多维表格API端点
+    const url = `https://open.larksuite.com/open-apis/bitable/v1/apps/${config.spreadsheetToken}/tables/${config.sheetId}/records`;
+
+    // 构建多维表格请求体
     const requestData = {
-      valueRange: {
-        range: `${config.sheetId}!A:E`, // 假设表格有5列：日期、姓名、WhatsApp、车型、VIN、零件
-        values: [
-          [currentDate, formData.name, formData.whatsapp, formData.carBrand, formData.vinNumber, formData.partsNeeded]
-        ]
+      fields: {
+        "日期": null,
+        "姓名": formData.name,
+        "WhatsApp": formData.whatsapp,
+        "车型": formData.carBrand,
+        "VIN": formData.vinNumber,
+        "所需零件": formData.partsNeeded
       }
     };
     
@@ -74,6 +73,8 @@ async function writeToFeishuSheet(token: string, config: FeishuConfig, formData:
     });
     
     const data = await response.json();
+    console.log(data);
+    
     
     if (data.code !== 0) {
       throw new Error(`Failed to write to Feishu sheet: ${data.msg}`);
@@ -129,6 +130,9 @@ export async function POST(request: Request) {
     
     // 获取飞书访问令牌
     const token = await getFeishuToken(feishuConfig);
+    console.log('token:',token);
+    console.log('------------------------');
+    
     
     // 将数据写入飞书表格
     await writeToFeishuSheet(token, feishuConfig, formData);
