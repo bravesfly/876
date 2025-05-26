@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Profixer - Auto Parts Landing Page
+
+A professional landing page for an auto parts business in Jamaica. This project includes a form to collect customer information and integrates with Feishu Sheets API to store the submitted data.
+
+## Features
+
+- Modern, responsive design optimized for all devices
+- Contact form for customer inquiries
+- Integration with Feishu Sheets API for data storage
+- Tailwind CSS for styling
+- Next.js App Router architecture
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn
+- Feishu account with API access
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd 876
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Configure environment variables
+
+Copy the `.env.local` file and update it with your Feishu API credentials:
+
+```bash
+cp .env.local.example .env.local
+```
+
+Then edit `.env.local` with your actual Feishu API credentials:
+
+```
+FEISHU_APP_ID=your_app_id_here
+FEISHU_APP_SECRET=your_app_secret_here
+FEISHU_SPREADSHEET_TOKEN=your_spreadsheet_token_here
+FEISHU_SHEET_ID=your_sheet_id_here
+```
+
+### Feishu API Setup
+
+1. Create a Feishu account if you don't have one
+2. Create a new app in the Feishu developer platform
+3. Enable the Sheets API permissions for your app
+4. Create a spreadsheet in Feishu and note its token from the URL
+5. Create a sheet within the spreadsheet and note its ID
+6. Update the `.env.local` file with these credentials
+
+### Running the Development Server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `/app` - Next.js App Router pages and API routes
+- `/components` - React components
+- `/public` - Static assets
 
-## Learn More
+## Form Data Collection
 
-To learn more about Next.js, take a look at the following resources:
+The contact form collects the following information:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Customer name
+- WhatsApp number
+- Vehicle brand
+- Vehicle identification number (VIN)
+- Parts needed
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This data is sent to the Feishu Sheets API and stored in the configured spreadsheet.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project can be deployed on any platform that supports Next.js applications, such as Vercel, Netlify, or a traditional server.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm run start
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
