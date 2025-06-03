@@ -1,0 +1,292 @@
+https://cleannest.webflow.io/
+✅ Hero 主标题
+原文：
+ Tailored cleaning for every home
+ 替换为：
+ The best way to get auto parts in Jamaica
+ 中文翻译：
+ 牙买加购买汽车配件的最佳方式
+✅ Hero 副标题段落
+原文：
+ Experience the CleanNest difference—where your comfort, health, and peace of mind come first in every cleaning service. From meticulous attention to detail to eco-friendly products, we ensure a spotless, safe, and welcoming home environment.
+ 替换为：
+Spark Auto Part Assistant provides a smarter way to source car parts in Jamaica.  
+Submit your request online — we’ll find the best local options, confirm details with you, and arrange fast delivery or pickup.  
+No more waiting in line or visiting multiple stores. Get the parts you need, without the hassle.
+中文翻译：
+ Spark Auto Part Assistant 为牙买加用户提供更智能的配件采购方式。
+ 您只需在线提交请求，我们会为您找到最合适的本地选项，确认信息并安排送货或自取。
+ 无需排长队，无需四处奔波，轻松获得所需配件。
+✅ 按钮文案
+Contact Us → Get a Quote
+ 中文翻译： 联系我们 → 获取报价
+
+Services → How It Works
+ 中文翻译： 服务 → 服务流程说明
+
+✅ 数据指标区
+✅ 服务介绍区块（标题 + 段落 + 三类服务）
+1. 原文主标题：
+Professional Cleaning Services That Prioritize Your Health and Comfort
+替换内容：
+ Professional Auto Parts Sourcing That Prioritizes Speed, Accuracy, and Convenience
+中文注释：
+ 服务板块大标题，强调我们提供快速、准确、省事的配件代购服务。
+2. 原文正文段落：
+Transform your living and working spaces with our specialized cleaning solutions. From eco-friendly products for your home to meticulous, detail-oriented cleaning for workspaces, we bring cleanliness and peace of mind to every corner. Choose a service that not only meets your needs but also values the environment.
+替换内容：
+Transform your car repair process with our smart sourcing.
+ From part matching to delivery, SAPA makes it faster and easier to get what you need — all without running store to store.
+ Choose the service that best fits your situation — we’ll handle the rest.
+中文注释：
+ 服务板块说明文字，强调我们可根据客户情况提供灵活、便捷、代办式的买配件解决方案。
+3. 三类服务标题与简述：
+✅ How It Works 主标题
+原文：
+ Our Simple Process for a Spotless Space
+ 替换为：
+ Our Simple Process for Getting the Right Auto Parts
+ 中文翻译：
+ 获取正确配件的简单流程
+✅ How It Works 副标题
+原文：
+ At CleanNest, we believe that...
+ 替换为：
+ At Spark Auto Part Assistant, we make it easy to get the parts you need — even if you're not sure what they're called.
+From request to delivery, we handle everything so you don't have to.
+🔸 Step 1
+原标题：Select and book the cleaning service that best fits your needs
+ 替换为：
+            Submit your parts request in seconds
+ 原正文：
+ whether it’s for your home, office...
+ 替换为：
+ Just tell us your vehicle model, year, and what you’re looking for — whether it's a full part name or just a problem description.
+We’ll use this info to start sourcing the right options, fast. 
+中文注释：
+ 第一步是提交配件需求（名称或问题都可以），快速开始找件。
+🔸 Step 2
+原标题：We Handle the Cleaning
+ 替换为：We Find, Confirm, and Quote the Right Parts
+ 替换正文：
+ Our team searches trusted local suppliers to find parts that match your vehicle.
+We confirm every detail with you — no more guessing, no more describing things to the wrong people.
+Forget long lines and running from shop to shop.
+With SAPA, you save time, avoid mistakes, and get the best price.
+第一句说明我们替他联系本地配件商，找对型号
+
+第二句针对“客户不懂怎么描述、交流麻烦”这个痛点
+
+第三句击中“排队 + 跑店”痛点
+
+最后一总结句：“省时、省错、省钱”三个关键词全收录，句式简洁有力
+✅ Step 3
+原文标题：
+ Relax and Revel in the Fresh, Spotless Results
+ 替换为：
+ Receive Your Parts — Delivered or Ready for Pickup
+原文：Take a moment to unwind and relish the comfort of your freshly cleaned home…
+ 替换为：Once your parts are secured, we arrange delivery to your door or a convenient pickup point.
+ If your mechanic is willing, we’ll even speak with them directly to confirm that the part truly matches your repair.
+ Before any non-refundable order is placed, we do our best to verify everything and help you avoid costly mistakes.
+
+✅ 替换对照表（服务亮点卡片）
+卡片 1
+原文标题： Home care services
+ 原文正文： We provide customized plans, flexible scheduling, and specialized cleaning solutions tailored to your needs.
+替换标题： All-in-One Local Parts Sourcing
+ 替换正文： From request to delivery, we handle the full process — saving you time, effort, and mistakes.
+中文翻译：
+ 一站式本地配件采购
+ 从提交请求到送货上门，我们全程负责，为您省时、省力、避免出错。
+卡片 2
+原文标题： Home cleaning
+ 原文正文： Our home cleaning services provide a thorough and reliable clean for your living space, ensuring every room is fresh.
+替换标题： Fast Quotes for Common Parts
+替换正文： Need filters, brake pads, or sensors? Get quick matches based on your car's model and year.
+中文翻译：
+ 常见配件极速报价
+ 滤芯、刹车片、传感器？告诉我们车型年份，即刻为您匹配并报价。
+卡片 3
+原文标题： Business cleaning
+ 原文正文： We deliver professional cleaning services for commercial spaces, maintaining a clean and healthy environment.
+替换成标题： Not Sure Which Version? Let Us Match It.
+替换成正文： You know what part you need — just not the exact version or fit. Upload your blue vehicle registration slip along with the part name. We’ll use your official vehicle info to find the correct match — no confusion, no mistakes.
+中文翻译：
+ 知道配件名称，不确定具体型号？我们来帮您确认
+ 您可能知道需要某个配件，但不确定具体型号或适配版本。只需上传蓝纸（车辆注册证）并提供配件名称，我们会根据车辆信息为您匹配正确版本，避免混乱与错误。
+卡片 4
+原文标题： Green cleaning solutions
+ 原文正文： At CleanNest, we prioritize the health of your family and the planet. Our solutions use non-toxic products.
+替换标题： Priority sourcing service
+替换正文： Need it fast or can’t find it locally? We’ll search wider, move quicker, and update you at every step.
+中文翻译：
+优先搜寻服务
+急需配件或本地缺货？我们将扩大搜寻范围，加快处理速度，并在每个阶段向您及时汇报进度。
+卡片 5
+原文标题： Tailored services
+原文正文： Whether you need a one-time deep clean or regular maintenance.
+替换标题： Flexible sourcing plans
+替换正文： From standard requests to complex needs, we adapt our service to fit your situation — not the other way around.
+中文翻译：
+灵活的采购方案无论是常规配件需求，还是复杂车型配置，我们都能灵活调整服务方式，以您的情况为先，而非强制客户适应平台流程。
+卡片 6
+原文标题： Client-focused service
+ 原文正文： Your satisfaction is our top priority. We take a customer-centric approach, listening to your feedback and continuously.
+替换标题： Customer-first approach
+ 替换正文： We keep you in the loop at every step — from sourcing to confirmation. Real people, real updates, zero guesswork.
+中文翻译：
+ 以客户为中心的服务方式。从搜寻到确认，每一步我们都会主动向您汇报，由真人服务，全程清晰透明，不用猜、不出错。
+标题：
+Transparent Pricing, Local Drop-Off, and Flexible Payment Options
+正文内容（最终推荐）：
+We offer direct delivery to select gated communities in Kingston and Portmore.
+ For other locations across Jamaica, we coordinate courier shipping through trusted third-party providers.
+All fees are clearly quoted upfront — no hidden charges.
+We accept:
+NCB bank transfers
+
+Credit and debit cards via Stripe (a secure global gateway)
+
+Every part request receives a response within 24 hours, with full transparency and support throughout the process.
+底下4组数据改成
+标题：
+Ready to make the switch to a faster, smarter, and stress-free way to buy auto parts?
+正文内容：
+Skip the long lines, guesswork, and endless shop visits.
+ With Spark Auto Part Assistant, you simply tell us what you need —
+ or upload your vehicle registration to help us confirm it for you.
+We’ll take it from there: sourcing the right parts, comparing prices, and arranging delivery or pickup.
+ It’s the easiest, most reliable way for Jamaican drivers to get parts — fast.
+行动按钮：
+Get My Quote Now →
+
+✅ 替换后内容（针对 Spark Auto Part Assistant 精准重写）：
+Section Title:
+ Testimonials
+Heading:
+ What Drivers Say About Spark
+Paragraph：
+ At Spark Auto Part Assistant, we help Jamaican drivers get the right parts quickly, confidently, and without hassle. But don’t just take our word for it — hear from real customers who’ve used our service and never looked back.
+✅ 中文说明（仅作参考，不展示）：
+Section Title: 客户评价区标题，不改
+
+Heading: “What Drivers Say About Spark” 更贴近你客户群（司机/车主）
+
+正文 Paragraph: 精炼表达：
+
+强调“快速 + 精准 + 无烦恼”服务体验
+
+结尾自然导向客户评价，鼓励信任
+评价内容：
+They didn’t just quote. They explained the options and let me decide.
+It’s not just a website. Real team behind it. They messaged me back quickly.
+Used Spark to find parts for my dad’s Hiace. All came sorted.
+I needed brake pads urgently. They had it delivered the same day in Kingston.
+They even warned me which parts couldn’t be returned. I respect that.
+Very professional, no hype. They just help you get what you need.
+Can’t believe how smooth the process was. Definitely using again.
+Much better than calling random shops. These guys know parts.
+Mi couldn't find the part anywhere in town, Spark link it same day. Bless up.
+Straightforward, fast, and helpful. Exactly what I hoped for.
+Thought I’d get rob on price, but they send me full quote before I pay. Straight dealing.
+Honestly, me get fed up with driving shop to shop. Spark just send it to me gate.
+Mi mechanic tell me is oxygen sensor but never know which one. Spark find the exact.
+It’s not joke — I pay and next morning is at mi workplace.
+Mi nuh too tech, but them walk mi through the payment like a cousin.
+Mi call 4 shop and them all wrong. Spark get it right.
+Some parts pricey yes, but at least mi know is the right one and no runaround.
+
+Mi woman do the form thing and within 1 hour them reply. She shock.
+Not perfect, but better than run up and down town. Mi nah lie.
+Mi neva hear of this site before. Now mi a fan. Whole shop crew start use it.
+Them even check mi VIN before confirm. That sell it for mi.
+Mi nuh do review, but this different. Them actually help real.
+✅ FAQ 标题区翻译
+Frequently asked questions
+ 常见问题
+
+Everything you need to know about getting auto parts through Spark — from requests to delivery and payment.
+ 关于通过 Spark 获取汽车配件的一切常见问题 —— 从提交需求、确认配件、付款到收货，全在这里。
+
+✅ 问题与答案翻译
+1. What kind of auto parts can you help me find?
+你们可以帮我找到哪些配件？
+我们可以帮你代购几乎所有常见的汽车配件，包括机件与钣金件：滤芯、感应器、刹车片、发动机零件、灯具等等，适用于日本、欧美车型。你只需提供车辆信息和需要的配件名称，我们来帮你查货。
+2. Can you help confirm if I’m requesting the right part?
+你们能帮我确认我要的配件是否正确吗？
+可以。如果你不确定配件型号，可以上传车辆注册证或提供车架号（chassis number），我们会协助你在下单前核对。对于一些复杂配件，我们可能会建议你提供师傅的备注或实物照片。
+3. How do I request a quote for parts?
+我要怎么申请配件报价？
+你可以填写我们的在线表单，或直接通过 WhatsApp 联系我们。提供你的车辆信息和所需配件内容，我们会尽快发送一份详细报价，包含商品说明、价格、供货情况及配送方式。
+4. How do I receive my parts after ordering?
+下单后配件怎么送到我手上？
+你可以选择以下方式：
+送货上门（限 Kingston 和 Portmore 的特定安保社区）
+
+全国范围内的快递寄送（我们代为安排）
+
+到指定地点自取
+
+我们会在发货前与你再次确认送达方式。
+5. What if the part is wrong or doesn’t fit?
+如果配件不对或装不上怎么办？
+大多数配件在购买前有说明的情况下是可退换的（除非特殊标注）。如果是你提供的信息有误导致买错，我们也会尽力协助解决，但是否能退换需视供应商政策而定。我们在下单前会尽可能为你核实，避免出错。
+6. What payment methods do you accept?
+你们支持哪些支付方式？
+We accept secure online payments via debit/credit card (processed by Stripe), as well as direct bank transfers to our NCB business account.
+ 我们支持安全的线上付款（通过 Stripe 支付网关，支持信用卡和储蓄卡），也支持转账至我们的 NCB 商业银行账户。
+7. How long does delivery usually take?
+配件一般多久可以送达？
+For in-stock local parts, delivery can be same-day or next-day in Kingston and Portmore. For islandwide courier, it usually takes 1–3 working days.
+ 部分本地现货配件，在 Kingston 和 Portmore 的特定区域可实现当日或次日送达。全国快递送达时间通常为 1–3 个工作日。
+8. Can you help with parts that need to be imported?
+你们可以协助找国外的配件吗？
+Yes. If a part is not available locally, we can assist with overseas sourcing. Estimated delivery time and shipping cost will be provided in the quote.
+ 可以。如果本地没有该配件，我们可以协助寻找海外渠道。报价中会明确预计的到货时间和运输费用。
+9. Do you offer installation or mechanic referrals?
+你们提供安装服务或推荐维修师傅吗？
+While we don’t install parts directly, we can recommend reliable local mechanics or garages depending on your location and request.
+ 我们不直接提供安装服务，但可根据你所在地区协助推荐值得信赖的本地维修技师或修理厂。
+✅ 修正版第 10 条 FAQ（含时限）
+What if I have an issue after receiving my part?
+收货后发现问题怎么办？
+英文回答：
+ If the part is damaged, incorrect, or doesn’t match your vehicle, please contact our support team within 3 days of receiving the item. We’ll verify the issue and work with the supplier to resolve it.
+ Most items are returnable as long as they are unused and in original packaging. After 3 days, we may not be able to accept returns.
+中文翻译：
+ 如果配件存在破损、发错或与你车辆不匹配，请务必在收货后 3 天内联系客户服务团队。我们会协助你核实问题，并与供应商协调处理。
+ 大多数配件在未使用且包装完整的情况下可以退换。超过 3 天未联系，可能将无法受理退货申请。
+✅ 第 11 条（销售角度的 FAQ）
+Why should I use Spark instead of going shop to shop?
+我为什么要通过 Spark 买配件，不自己一家家去汽配店问？
+英文回答：
+ With Spark, you skip the long lines, wrong parts, and wasted time. We search trusted local suppliers for you, confirm the part fits your vehicle, and arrange fast delivery or pickup.
+ Instead of guessing or arguing with store clerks, you get professional, one-on-one support — without leaving your home.
+中文翻译：
+ 通过 Spark，你无需东奔西跑、不用排长队、不用担心买错配件。我们为你在本地可信供应商中筛选、确认配件适配，并安排送货或自取。
+ 你不再需要到店里跟店员争论配件型号，我们提供的是专业、专人、一对一的服务，全程远程完成。
+这里改成Join Us
+✅ 表单标题与说明（英文版本）
+标题：
+💼 Want to join us or work together?
+说明段落（可在表单上方显示）：
+If you're a local supplier, part finder, or want to join our sourcing team, leave your contact and we’ll get in touch.
+ We’re always looking for reliable people and partners across Jamaica.
+✅ 按钮文字建议：
+Submit
+ 或
+ I'm Interested
+提交后弹窗或提示：
+✅ Thank you! We’ll be in touch soon.
+ 感谢提交，我们会尽快与您联系！
+✅ 中文翻译对照（供备份用）
+姓名
+
+联系电话 / WhatsApp
+
+邮箱（可选）
+
+你的身份 / 意向：供应商 / 配件查找员 / 其他
+
+想跟我们合作什么内容？（例如：我有 Hiace 刹车片库存）
