@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ContactForm } from "@/components/contact-form";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: 'The best way to get auto parts | Spark Auto Part Assistant',
+};
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
