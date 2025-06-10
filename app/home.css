@@ -8484,7 +8484,7 @@ html {
   
     .impact_visual {
       border-radius: 1rem;
-      padding-top: 80%;
+      /* padding-top: 80%; */
     }
   
     .impact_content-wrap {
@@ -9393,7 +9393,7 @@ html {
     }
   
     .impact_visual {
-      padding-top: 100%;
+      /* padding-top: 100%; */
     }
   
     .impact_content-wrap {
