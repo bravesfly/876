@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useRef } from "react";
 
-export function Carousel() {
+export default function Carousel() {
   const carouselRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

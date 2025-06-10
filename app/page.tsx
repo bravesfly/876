@@ -3,9 +3,11 @@ import Link from "next/link";
 import { ContactForm } from "@/components/contact-form";
 import { Metadata } from "next";
 import './home.css'
-import { Header } from '@/components/header'
-import { Footer } from '@/components/footer'
-import {Carousel } from '@/components/carousel'
+import Header from '@/components/header'
+import Footer from '@/components/footer'
+import FAQ from '@/components/faq'
+import Carousel from '@/components/carousel'
+import HowItWork from "@/components/how-it-work";
 export const metadata: Metadata = {
   title: 'The best way to get auto parts | Spark Auto Part Assistant',
 };
@@ -115,90 +117,8 @@ export default function Home() {
       </div>
       </div>
       </div>
-        </section><section className="section_overview"><div className="padding-global padding-section-medium"><div className="container-medium"><div className="overview_wrap"><div className="overview_header"><div className="badge" style={{
-          "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-        }}><div className="text-sm text-style-allcaps">How It Works</div>
-        </div>
-          <h2 className="text-6xl" style={{
-            "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-          }}> Our Simple Process for Getting the Right Auto Parts</h2><div className="overview_description"><div className="text-base text-lineheight-2xl" style={{
-            "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-          }}>At Spark Auto Part Assistant, we make it easy to get the parts you need — even if you're not sure what they're called.
-            From request to delivery, we handle everything so you don't have to.</div>
-          </div>
-        </div>
-          <div className="overview_block"><div className="overview_block-visual"><img src="https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a24a73e3d969c3504b_overview%20image%20one.webp" loading="lazy" sizes="(max-width: 1064px) 100vw, 1064px" srcSet="https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a24a73e3d969c3504b_overview%20image%20one-p-500.webp 500w, https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a24a73e3d969c3504b_overview%20image%20one-p-800.webp 800w, https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a24a73e3d969c3504b_overview%20image%20one.webp 1064w" alt="" className="img" style={{
-            "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "filter": "blur(0px)", "transformStyle": "preserve-3d"
-          }} /></div>
-            <div id="w-node-_9c92bfd9-a649-117c-2675-30cc2d2b801b-2d2b800c" className="overview_block-content"><div className="overview_block-text"><div className="overview_block-badge" style={{
-              "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-            }}><div>1</div>
-            </div>
-              <h3 className="text-4xl" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}>Submit your parts request in seconds</h3><div className="text-base text-lineheight-2xl" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}>Just tell us your vehicle model, year, and what you’re looking for — whether it's a full part name or just a problem description.</div>
-            </div>
-              <div className="button-wrapper" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}><a href="/contact-us" className="button w-inline-block"><div className="button-background" style={{
-                "transform": "translate3d(0%, 0rem, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "willChange": "transform", "transformStyle": "preserve-3d"
-              }}></div>
-                  <div className="text-block">Contact Us</div>
-                </a></div>
-            </div>
-          </div>
-          <div className="overview_block"><div id="w-node-_9c92bfd9-a649-117c-2675-30cc2d2b8028-2d2b800c" className="overview_block-visual"><img src="https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a24446566bfdb3332a_overview%20image%20two.webp" loading="lazy" sizes="(max-width: 1064px) 100vw, 1064px" srcSet="https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a24446566bfdb3332a_overview%20image%20two-p-500.webp 500w, https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a24446566bfdb3332a_overview%20image%20two-p-800.webp 800w, https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a24446566bfdb3332a_overview%20image%20two.webp 1064w" alt="" className="img" style={{
-            "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "filter": "blur(0px)", "transformStyle": "preserve-3d"
-          }} /></div>
-            <div id="w-node-_9c92bfd9-a649-117c-2675-30cc2d2b802a-2d2b800c" className="overview_block-content"><div className="overview_block-text"><div className="overview_block-badge" style={{
-              "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-            }}><div>2</div>
-            </div>
-              <h3 className="text-4xl" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}>We Find, Confirm, and Quote the Right Parts</h3><div className="text-base text-lineheight-2xl" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}>We confirm every detail with you — no more guessing, no more describing things to the wrong people.
-                Forget long lines and running from shop to shop.
-                With SAPA, you save time, avoid mistakes, and get the best price.</div>
-            </div>
-              <div className="button-wrapper" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}><a href="/contact-us" className="button w-inline-block"><div className="button-background" style={{
-                "transform": "translate3d(0%, 0rem, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "willChange": "transform", "transformStyle": "preserve-3d"
-              }}></div>
-                  <div className="text-block">Contact Us</div>
-                </a></div>
-            </div>
-          </div>
-          <div className="overview_block"><div id="w-node-_9c92bfd9-a649-117c-2675-30cc2d2b8037-2d2b800c" className="overview_block-visual"><img src="https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a3712f50fd8eae7394_overview%20image%20three.webp" loading="lazy" sizes="(max-width: 1064px) 100vw, 1064px" srcSet="https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a3712f50fd8eae7394_overview%20image%20three-p-500.webp 500w, https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a3712f50fd8eae7394_overview%20image%20three-p-800.webp 800w, https://cdn.prod.website-files.com/67318cb9b838c7d9b22e8814/6734c3a3712f50fd8eae7394_overview%20image%20three.webp 1064w" alt="" className="img" style={{
-            "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "filter": "blur(0px)", "transformStyle": "preserve-3d"
-          }} /></div>
-            <div id="w-node-_9c92bfd9-a649-117c-2675-30cc2d2b8039-2d2b800c" className="overview_block-content"><div className="overview_block-text"><div className="overview_block-badge" style={{
-              "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-            }}><div>3</div>
-            </div>
-              <h3 className="text-4xl" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}> Receive Your Parts — Delivered or Ready for Pickup</h3><div className="text-base text-lineheight-2xl" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}>Once your parts are secured, we arrange delivery to your door or a convenient pickup point. If your mechanic is willing, we’ll even speak with them directly to confirm that the part truly matches your repair. Before any non-refundable order is placed, we do our best to verify everything and help you avoid costly mistakes.</div>
-            </div>
-              <div className="button-wrapper" style={{
-                "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-              }}><a href="/contact-us" className="button w-inline-block"><div className="button-background" style={{
-                "transform": "translate3d(0%, 0rem, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "willChange": "transform", "transformStyle": "preserve-3d"
-              }}></div>
-                  <div className="text-block">Contact Us</div>
-                </a></div>
-            </div>
-          </div>
-        </div>
-        </div>
-        </div>
-        </section><section className="section_categories is-home-page"><div className="padding-global padding-section-large"><div className="container-medium"><div className="categories_wrap"><div className="categories_header"><div className="categories_title-wrap"><h2 style={{
+        </section>
+        <HowItWork></HowItWork><section className="section_categories is-home-page"><div className="padding-global padding-section-large"><div className="container-medium"><div className="categories_wrap"><div className="categories_header"><div className="categories_title-wrap"><h2 style={{
           "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
         }} className="text-5xl">All-in-One Local Parts Sourcing</h2><div style={{
           "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
@@ -559,97 +479,8 @@ export default function Home() {
         </div>
         </div>
         </div>
-        </section><section className="section_faq"><div className="padding-global padding-section-medium"><div className="container-medium"><div className="faq_wrap"><div className="faq_header"><h2 className="text-6xl">Frequently asked questions</h2><div className="text-base text-lineheight-2xl">Everything you need to know about our cleaning services and billing.</div>
-        </div>
-          <div className="faq_list"><div data-delay="0" data-hover="false" className="accordion w-dropdown" style={{
-            "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-          }}><div className="accordion-toggle is-first w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabIndex={0}><div className="accordion_toggle-text"> What kind of auto parts can you help me find?</div>
-              <div className="accordion-icon"><div className="icon-horizontal"></div>
-                <div className="icon-vertical" style={{
-                  "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d"
-                }}></div>
-              </div>
-            </div>
-            <nav className="accordion-content w-dropdown-list" style={{ "height": "0px" }} id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0"><div className="content-wrap" style={{
-              "transform": "translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "opacity": 0
-            }}><div className="text-base text-lineheight-2xl">We offer a range of services, including residential cleaning, deep cleaning, move-in/move-out cleaning, and seasonal deep cleaning.</div>
-            </div>
-            </nav></div>
-            <div data-delay="0" data-hover="false" className="accordion w-dropdown" style={{
-              "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-            }}><div className="accordion-toggle w-dropdown-toggle" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabIndex={0}><div className="accordion_toggle-text">Can you help confirm if I’m requesting the right part?</div>
-                <div className="accordion-icon"><div className="icon-horizontal"></div>
-                  <div className="icon-vertical" style={{
-                    "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d"
-                  }}></div>
-                </div>
-              </div>
-              <nav className="accordion-content w-dropdown-list" style={{ "height": "0px" }} id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1"><div className="content-wrap" style={{
-                "transform": "translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "opacity": 0
-              }}><div className="text-base text-lineheight-2xl">Yes, we use eco-friendly and non-toxic cleaning products that are safe for your family, pets, and the environment. Our goal is to provide a clean home while minimizing our impact on the planet.</div>
-              </div>
-              </nav></div>
-            <div data-delay="0" data-hover="false" className="accordion w-dropdown" style={{
-              "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-            }}><div className="accordion-toggle w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabIndex={0}><div className="accordion_toggle-text">How do I request a quote for parts?</div>
-                <div className="accordion-icon"><div className="icon-horizontal"></div>
-                  <div className="icon-vertical" style={{
-                    "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d"
-                  }}></div>
-                </div>
-              </div>
-              <nav className="accordion-content w-dropdown-list" style={{ "height": "0px" }} id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2"><div className="content-wrap" style={{
-                "transform": "translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "opacity": 0
-              }}><div className="text-base text-lineheight-2xl">Scheduling a cleaning service is easy! You can book through our website, give us a call, or use our mobile app to choose a date and time that works best for you.</div>
-              </div>
-              </nav></div>
-            <div data-delay="0" data-hover="false" className="accordion w-dropdown" style={{
-              "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-            }}><div className="accordion-toggle w-dropdown-toggle" id="w-dropdown-toggle-3" aria-controls="w-dropdown-list-3" aria-haspopup="menu" aria-expanded="false" role="button" tabIndex={0}><div className="accordion_toggle-text">How do I receive my parts after ordering?</div>
-                <div className="accordion-icon"><div className="icon-horizontal"></div>
-                  <div className="icon-vertical" style={{
-                    "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d"
-                  }}></div>
-                </div>
-              </div>
-              <nav className="accordion-content w-dropdown-list" style={{ "height": "0px" }} id="w-dropdown-list-3" aria-labelledby="w-dropdown-toggle-3"><div className="content-wrap" style={{
-                "transform": "translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "opacity": 0
-              }}><div className="text-base text-lineheight-2xl">No, you don’t have to be home. Many of our clients provide us with access instructions so we can clean while they’re away. However, if you prefer to be present, that’s perfectly fine too!</div>
-              </div>
-              </nav></div>
-            <div data-delay="0" data-hover="false" className="accordion w-dropdown" style={{
-              "transform": "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "opacity": 1, "transformStyle": "preserve-3d"
-            }}><div className="accordion-toggle w-dropdown-toggle" id="w-dropdown-toggle-4" aria-controls="w-dropdown-list-4" aria-haspopup="menu" aria-expanded="false" role="button" tabIndex={0}><div className="accordion_toggle-text">What if the part is wrong or doesn’t fit?</div>
-                <div className="accordion-icon"><div className="icon-horizontal">
-                </div>
-
-                  <div className="icon-vertical" style={{
-                    "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d"
-                  }}>
-                  </div>
-
-                </div>
-
-              </div>
-
-              <nav className="accordion-content w-dropdown-list" style={{ "height": "0px" }} id="w-dropdown-list-4" aria-labelledby="w-dropdown-toggle-4"><div className="content-wrap" style={{
-                "transform": "translate3d(0px, 30%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "opacity": 0
-              }}><div className="text-base text-lineheight-2xl">Your satisfaction is our priority. If you’re not happy with the service, please let us know within 24 hours, and we’ll arrange a re-clean at no extra cost.</div>
-
-              </div>
-
-              </nav>
-            </div>
-
-          </div>
-
-        </div>
-
-        </div>
-
-        </div>
-
         </section>
+        <FAQ></FAQ>
       </main>
       <Footer />
     </div >
