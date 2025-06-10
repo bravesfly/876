@@ -10,8 +10,10 @@ const stats = [
     { value: 95, suffix: '%', label: 'Match accuracy' },
     { value: 48, suffix: 'H', label: 'Delivery speed' }
 ];
-
-export default function MainHero() {
+interface HeaderProps {
+    onGetQuoteClick: () => void; // 添加这个 prop
+}
+export default function MainHero({ onGetQuoteClick }: HeaderProps) {
     const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.5 });
 
     return (
@@ -35,10 +37,10 @@ export default function MainHero() {
                                 <AnimatedWrapper delay={300}>
                                     <div className="hero_buttons-wrap">
                                         <div className="button-wrapper">
-                                            <Link href="/contact-us" className="button is-secondary w-inline-block">
+                                            <div onClick={onGetQuoteClick} className="button is-secondary w-inline-block">
                                                 <div className="button-background is-white-bg"></div>
                                                 <div className="text-block">Get a Quote</div>
-                                            </Link>
+                                            </div>
                                         </div>
                                         <div className="button-wrapper">
                                             <Link href="/services" className="button is-outline w-button">How It Works</Link>
