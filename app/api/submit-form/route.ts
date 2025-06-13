@@ -12,9 +12,7 @@ interface FeishuConfig {
 interface FormData {
   name: string;
   phone: string; // 对应页面中的Phone / WhatsApp字段
-  email: string; // 可选字段
-  role: string;  // 角色/兴趣
-  message: string; // 合作内容
+  needs: string; // 合作内容
 }
 
 // 获取飞书访问令牌
@@ -56,9 +54,7 @@ async function writeToFeishuSheet(token: string, config: FeishuConfig, formData:
         "日期": null,
         "姓名": formData.name,
         "电话": formData.phone,
-        "邮箱": formData.email || "",
-        "角色": formData.role,
-        "内容": formData.message
+        "需求": formData.needs || "",
       }
     };
     
@@ -94,7 +90,7 @@ export async function POST(request: Request) {
     const formData: FormData = await request.json();
     
     // 验证必填字段
-    const requiredFields = ['name', 'phone', 'role', 'message'];
+    const requiredFields = ['name', 'phone', 'needs'];
     for (const field of requiredFields) {
       if (!formData[field as keyof FormData]) {
         return NextResponse.json(
@@ -112,6 +108,9 @@ export async function POST(request: Request) {
       spreadsheetToken: process.env.FEISHU_SPREADSHEET_TOKEN || '',
       sheetId: process.env.FEISHU_SHEET_ID || ''
     };
+
+    console.log(feishuConfig);
+    
     
     // 检查配置是否完整
     const missingConfigs = Object.entries(feishuConfig)
@@ -132,6 +131,7 @@ export async function POST(request: Request) {
     const token = await getFeishuToken(feishuConfig);
     console.log('token:',token);
     console.log('------------------------');
+    console.log(formData);
     
     
     // 将数据写入飞书表格
